@@ -1,0 +1,9 @@
+lab/
+*.pcap
+*.pcapng
+*.pcap.sha256
+*.key
+*.crt
+*.log
+__pycache__/
+.DS_Store
