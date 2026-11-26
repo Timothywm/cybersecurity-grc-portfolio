@@ -1,0 +1,9 @@
+# Raw captures and run logs contain payloads / credentials / personal data -> never commit
+*.pcap
+*.pcapng
+pcaps/*
+!pcaps/README.md
+*.log
+evidence/alert_fast.raw.txt
+evidence/*.json
+.DS_Store

@@ -1,0 +1,41 @@
+# =============================================================================
+#  local.rules  -  Project 02: Snort 3 custom signature set  (rev 2)
+#  Target engine : Snort++ 3.12.x   |  Frameworks: MITRE ATT&CK, OWASP Top 10, NIST SP 800-94
+#  Scope         : LAB ONLY - detection of attacks against assets I own/operate
+#
+#  Design notes
+#   * Priority tiers: 1 = high-fidelity (page analyst) | 2 = suspicious | 3 = triage | 4 = telemetry
+#   * Rate-based rules use detection_filter (per source). Alert flooding is capped by the
+#     event_filter block in config/lab_overrides.lua.
+#   * Rules are intentionally one line each (portable across Snort 3 builds).
+# =============================================================================
+
+# --- 1000001 | Discovery / Active Scanning | T1046, T1595.001 ---------------------
+# Pure SYN (flags:S) to many service ports. NOTE: rev 1 used flags:S* (any packet with SYN set),
+# which also matches SYN/ACK. rev 2 matches initial SYN only.
+alert tcp any any -> $HOME_NET [1:21,23:79,81:1024] (msg:"[RECON] TCP SYN scan - high-rate SYNs across service ports - MITRE T1046/T1595.001"; flags:S; detection_filter:track by_src, count 15, seconds 5; priority:2; reference:url,attack.mitre.org/techniques/T1046/; metadata:mitre_attack T1046, confidence medium; sid:1000001; rev:2;)
+
+# --- 1000002 | Credential Access | T1110.001 --------------------------------------
+# SSH is encrypted: the NIDS cannot see auth failures, only connection RATE (proxy signal).
+alert tcp any any -> $HOME_NET 22 (msg:"[BRUTE-FORCE] Burst of SSH connection attempts from single source - MITRE T1110"; flags:S; detection_filter:track by_src, count 5, seconds 10; priority:2; reference:url,attack.mitre.org/techniques/T1110/; metadata:mitre_attack T1110, confidence low; sid:1000002; rev:2;)
+
+# --- 1000003 | Initial Access | T1190 / OWASP A03:2021 (broad, triage tier) --------
+# Keyword pair only -> expected false positives (e.g. "credit union select plan").
+alert http any any -> $HOME_NET any (msg:"[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190"; flow:to_server,established; http_uri; content:"union", nocase; content:"select", nocase, distance 0; priority:3; reference:url,owasp.org/Top10/A03_2021-Injection/; metadata:mitre_attack T1190, confidence low; sid:1000003; rev:2;)
+
+# --- 1000004 | Discovery / Active Scanning | T1595.001 -----------------------------
+alert icmp any any -> $HOME_NET any (msg:"[RECON] ICMP echo request burst from single source (ping sweep) - MITRE T1595.001"; itype:8; detection_filter:track by_src, count 5, seconds 5; priority:3; reference:url,attack.mitre.org/techniques/T1595/001/; metadata:mitre_attack T1595.001, confidence low; sid:1000004; rev:1;)
+
+# --- 1000005 | Reconnaissance / Vulnerability scanning | T1595.002 -----------------
+alert http any any -> $HOME_NET any (msg:"[WEB-RECON] Automated scanner User-Agent (sqlmap/Nikto/Nmap NSE/Nuclei) - MITRE T1595.002"; flow:to_server,established; http_header; pcre:"/user-agent\x3a[^\r\n]*(sqlmap|nikto|nmap scripting engine|nuclei)/i"; priority:2; reference:url,attack.mitre.org/techniques/T1595/002/; metadata:mitre_attack T1595.002, confidence high; sid:1000005; rev:1;)
+
+# --- 1000006 | Initial Access | T1190 / OWASP A03 (high fidelity, URI) ---------------
+# UNION [ALL] SELECT followed by NULL / column list, tolerant of +, %20 and /**/ separators.
+alert http any any -> $HOME_NET any (msg:"[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190"; flow:to_server,established; http_uri; pcre:"/union(\s|\+|\/\*.*?\*\/)+(all(\s|\+)+)?select(\s|\+|\/\*.*?\*\/)+(null\b|\d+\s*,|[\w\.\x27]+\s*,|.{1,120}(\s|\+)from(\s|\+))/i"; priority:1; reference:url,cwe.mitre.org/data/definitions/89.html; metadata:mitre_attack T1190, confidence high; sid:1000006; rev:1;)
+
+# --- 1000007 | same as 1000006 but for POST bodies -------------------------------
+alert http any any -> $HOME_NET any (msg:"[WEB-ATTACK] SQLi UNION SELECT with column enumeration in POST body (high fidelity) - OWASP A03 / T1190"; flow:to_server,established; http_client_body; pcre:"/union(\s|\+|\/\*.*?\*\/)+(all(\s|\+)+)?select(\s|\+|\/\*.*?\*\/)+(null\b|\d+\s*,|[\w\.\x27]+\s*,|.{1,120}(\s|\+)from(\s|\+))/i"; priority:1; reference:url,cwe.mitre.org/data/definitions/89.html; metadata:mitre_attack T1190, confidence high; sid:1000007; rev:1;)
+
+# --- 1000008 | Blind-spot telemetry ---------------------------------------------------
+# Not an attack alert: counts TLS sessions whose payload this sensor can NOT inspect.
+alert ssl any any -> $HOME_NET any (msg:"[INFO] TLS session to protected segment - payload not inspectable (blind spot telemetry)"; ssl_state:client_hello; priority:4; metadata:purpose coverage-gap; sid:1000008; rev:1;)

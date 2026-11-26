@@ -1,0 +1,130 @@
+# Rule validation - 2026-11-26T07:59:21+07:00
+
+   ,,_     -*> Snort++ <*-
+  o"  )~   Version 3.12.2.0
+WARNING: port rule 1:1000004:1 has no fast pattern
+WARNING: port rule 1:1000002:2 has no fast pattern
+WARNING: port rule 1:1000001:2 has no fast pattern
+WARNING: ssl rule 1:1000008:1 has no fast pattern
+WARNING: http2 rule 1:1000005:1 has no fast pattern
+WARNING: http2 rule 1:1000007:1 has no fast pattern
+WARNING: http2 rule 1:1000006:1 has no fast pattern
+--------------------------------------------------
+o")~   Snort++ 3.12.2.0
+--------------------------------------------------
+Loading /etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	references
+	netflow
+	pop
+	sip
+	ssh
+	telnet
+	appid
+	wizard
+	binder
+	event_filter
+	alert_fast
+	ips
+	classifications
+	js_norm
+	file_policy
+	file_inspect
+	http2_inspect
+	http_inspect
+	ftp_data
+	ftp_client
+	ftp_server
+	smtp
+	port_scan
+	gtp_inspect
+	dce_http_server
+	dce_http_proxy
+	dce_udp
+	dce_tcp
+	dce_smb
+	s7commplus
+	opcua
+	modbus
+	mms
+	iec104
+	dnp3
+	cip
+	ssl
+	socks
+	rpc_decode
+	normalizer
+	imap
+	dns
+	stream_ip
+	arp_spoof
+	stream_file
+	stream_user
+	output
+	stream_udp
+	stream_tcp
+	stream_icmp
+	active
+	alerts
+	daq
+	decode
+	host_cache
+	host_tracker
+	hosts
+	network
+	packets
+	search_engine
+	back_orifice
+	stream
+	process
+Finished /etc/snort/snort.lua:
+Loading file_inspect.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_inspect.rules_file:
+Loading rule args:
+Loading /home/kali/02-snort-nids-threat-detection/rules/local.rules:
+Finished /home/kali/02-snort-nids-threat-detection/rules/local.rules:
+Finished rule args:
+--------------------------------------------------
+pcre counts
+               pcre_rules: 3
+              pcre_native: 3
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               1     227       0     227    /etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 227
+               text rules: 227
+            option chains: 227
+            chain headers: 6
+--------------------------------------------------
+port rule counts
+             tcp     udp    icmp      ip
+     any       0       0       1       0
+     dst       2       0       0       0
+   total       2       0       1       0
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      219     219
+                     http:        4       0
+                    http2:        4       0
+                    http3:        4       0
+                      ssl:        1       1
+                    total:      232     220
+--------------------------------------------------
+fast pattern groups
+                to_server: 4
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+appid: MaxRss diff: 2816
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to passive.
+
+Snort successfully validated the configuration (with 7 warnings).
+o")~   Snort exiting

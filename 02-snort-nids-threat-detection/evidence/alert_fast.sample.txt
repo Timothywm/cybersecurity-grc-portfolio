@@ -1,0 +1,20 @@
+11/26-08:09:02.136214 [**] [1:1000004:1] "[RECON] ICMP echo request burst from single source (ping sweep) - MITRE T1595.001" [**] [Priority: 3] {ICMP} 127.0.0.1 -> 127.0.0.1
+11/26-08:09:11.221193 [**] [1:1000001:2] "[RECON] TCP SYN scan - high-rate SYNs across service ports - MITRE T1046/T1595.001" [**] [Priority: 2] {TCP} 127.0.0.1:51861 -> 127.0.0.1:554
+11/26-08:09:23.141362 [**] [1:1000002:2] "[BRUTE-FORCE] Burst of SSH connection attempts from single source - MITRE T1110" [**] [Priority: 2] {TCP} 127.0.0.1:40308 -> 127.0.0.1:22
+11/26-08:09:32.464310 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:55244 -> 127.0.0.1:80
+11/26-08:09:32.464310 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.0.0.1:55244 -> 127.0.0.1:80
+11/26-08:09:40.618575 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:44318 -> 127.0.0.1:80
+11/26-08:09:40.618575 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.0.0.1:44318 -> 127.0.0.1:80
+11/26-08:09:48.682395 [**] [1:1000005:1] "[WEB-RECON] Automated scanner User-Agent (sqlmap/Nikto/Nmap NSE/Nuclei) - MITRE T1595.002" [**] [Priority: 2] {TCP} 127.0.0.1:43170 -> 127.0.0.1:80
+11/26-08:10:25.532862 [**] [1:1000002:2] "[BRUTE-FORCE] Burst of SSH connection attempts from single source - MITRE T1110" [**] [Priority: 2] {TCP} 127.0.0.1:34644 -> 127.0.0.1:22
+11/26-08:10:35.354822 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:32974 -> 127.0.0.1:80
+11/26-08:10:44.396160 [**] [1:1000004:1] "[RECON] ICMP echo request burst from single source (ping sweep) - MITRE T1595.001" [**] [Priority: 3] {ICMP} 127.0.0.1 -> 127.0.0.1
+11/26-08:12:41.072463 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:43676 -> 127.0.0.1:80
+11/26-08:12:41.072463 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.0.0.1:43676 -> 127.0.0.1:80
+11/26-08:12:49.102809 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:57776 -> 127.0.0.1:80
+11/26-08:12:49.102809 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.0.0.1:57776 -> 127.0.0.1:80
+11/26-08:13:05.152559 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:51440 -> 127.0.0.1:80
+11/26-08:13:05.152559 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.0.0.1:51440 -> 127.0.0.1:80
+11/26-08:13:13.183337 [**] [1:1000008:1] "[INFO] TLS session to protected segment - payload not inspectable (blind spot telemetry)" [**] [Priority: 4] {TCP} 127.0.0.1:39036 -> 127.0.0.1:8443
+11/26-08:13:13.189121 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.0.0.1:51446 -> 127.0.0.1:80
+11/26-08:13:13.189121 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.0.0.1:51446 -> 127.0.0.1:80
