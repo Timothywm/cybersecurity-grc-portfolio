@@ -1,0 +1,22 @@
+## first 12 queries
+0.004776000	pool.ntp.org	1
+30.825516000	ntp.ubuntu.com	1
+52.435129000	ntp.ubuntu.com	1
+106.037544000	ntp.ubuntu.com	1
+197.865421000	security.ubuntu.com	1
+224.234010000	ntp.ubuntu.com	1
+276.964135000	security.ubuntu.com	1
+307.795811000	pool.ntp.org	1
+414.918069000	ntp.ubuntu.com	1
+454.456434000	pool.ntp.org	1
+506.041672000	security.ubuntu.com	1
+522.862800000	security.ubuntu.com	1
+## unique names
+143
+## parent domains
+      8 ntp.org
+    140 telemetry-cdn.example
+     14 ubuntu.com
+## time span
+540.010606000
+755.888306000

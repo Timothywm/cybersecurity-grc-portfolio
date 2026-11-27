@@ -1,0 +1,33 @@
+# =============================================================================
+#  p03-snort.rules - detections derived from Project 03 findings (Snort 3)
+#  SIDs 1000101-1000108 (Project 02 uses 1000001-1000008).  Lab addresses are literals on purpose:
+#    web 127.10.2.10 | app 127.10.3.10 | db 127.10.4.10 | backup 127.10.4.20 | 127.10.0.0/16 = internal
+#  Validate first:  snort -c /etc/snort/snort.lua -R detections/p03-snort.rules -T
+#  Types: POLICY = violates the intended architecture (high fidelity, no signature needed)
+#         IOC    = matches an indicator from this incident (short shelf life)
+#         HEUR   = behavioural heuristic (needs tuning)
+# =============================================================================
+
+# 1000101 POLICY - DMZ web server initiates a connection to a non-web internal port (T1046, T1021.004)
+alert tcp 127.10.2.10 any -> [127.10.3.10,127.10.4.10,127.10.4.20] [22,445,873,3306,5432,6379] (msg:"[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046"; flags:S; priority:1; metadata:mitre_attack T1021, type policy; sid:1000101; rev:1;)
+
+# 1000102 POLICY - DMZ web server initiates a connection outside the internal range (T1071.001, T1041)
+alert tcp 127.10.2.10 any -> !127.10.0.0/16 any (msg:"[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041"; flags:S; priority:1; metadata:mitre_attack T1071.001, type policy; sid:1000102; rev:1;)
+
+# 1000103 IOC - TLS ClientHello carrying the attacker SNI (SNI is plaintext in TLS 1.2 / 1.3 without ECH)
+alert tcp any any -> any [443,8443] (msg:"[C2-IOC] TLS SNI telemetry-cdn.example (beacon / exfil channel) - T1071.001"; flow:to_server,established; content:"telemetry-cdn.example", nocase; priority:1; metadata:mitre_attack T1071.001, type ioc; sid:1000103; rev:1;)
+
+# 1000104 IOC - DNS query for the tunnelling domain (qname labels are length-prefixed; 'telemetry-cdn' is contiguous)
+alert udp any any -> any 53 (msg:"[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003"; content:"telemetry-cdn", nocase; priority:1; metadata:mitre_attack T1048.003, type ioc; sid:1000104; rev:1;)
+
+# 1000105 HEUR - burst of oversized DNS queries from one host (tunnel queries are ~97 B of UDP payload, normal lookups ~35 B)
+alert udp any any -> any 53 (msg:"[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003"; dsize:>80; detection_filter:track by_src, count 20, seconds 60; priority:2; metadata:mitre_attack T1048.003, type heuristic; sid:1000105; rev:1;)
+
+# 1000106 HEUR - many short sessions to the backup rsync port (the legitimate job uses 1-2 long sessions)
+alert tcp any any -> 127.10.4.20 873 (msg:"[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490"; flags:S; detection_filter:track by_src, count 40, seconds 60; priority:1; metadata:mitre_attack T1486, type heuristic; sid:1000106; rev:1;)
+
+# 1000107 IOC/HEUR - web shell invocation: command passed in a parameter of a PHP file under /uploads/ (T1505.003)
+alert http any any -> 127.10.2.10 any (msg:"[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003"; flow:to_server,established; http_uri; content:"/uploads/", nocase; content:".php?c=", nocase, distance 0; priority:1; metadata:mitre_attack T1505.003, type ioc; sid:1000107; rev:1;)
+
+# 1000108 HEUR - PHP file uploaded through a multipart form (T1190, T1505.003)
+alert http any any -> 127.10.2.10 any (msg:"[WEBSHELL] Multipart upload with .php filename - T1505.003"; flow:to_server,established; http_client_body; content:"filename=|22|", nocase; content:".php|22|", nocase, distance 0; priority:2; metadata:mitre_attack T1505.003, type heuristic; sid:1000108; rev:1;)

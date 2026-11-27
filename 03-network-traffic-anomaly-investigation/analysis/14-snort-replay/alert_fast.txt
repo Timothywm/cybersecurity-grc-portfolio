@@ -1,0 +1,609 @@
+11/26-17:41:35.362530 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.66.6.6:50463 -> 127.10.2.10:80
+11/26-17:41:35.362530 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.66.6.6:50463 -> 127.10.2.10:80
+11/26-17:41:37.363000 [**] [1:1000003:2] "[WEB-ATTACK] SQLi keyword pair UNION..SELECT in URI (triage) - OWASP A03 / T1190" [**] [Priority: 3] {TCP} 127.66.6.6:46777 -> 127.10.2.10:80
+11/26-17:41:37.363000 [**] [1:1000006:1] "[WEB-ATTACK] SQLi UNION SELECT with column enumeration in URI (high fidelity) - OWASP A03 / T1190" [**] [Priority: 1] {TCP} 127.66.6.6:46777 -> 127.10.2.10:80
+11/26-17:41:43.436898 [**] [1:1000108:1] "[WEBSHELL] Multipart upload with .php filename - T1505.003" [**] [Priority: 2] {TCP} 127.66.6.6:40855 -> 127.10.2.10:80
+11/26-17:41:46.439526 [**] [1:1000107:1] "[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003" [**] [Priority: 1] {TCP} 127.66.6.6:58327 -> 127.10.2.10:80
+11/26-17:41:48.696462 [**] [1:1000107:1] "[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003" [**] [Priority: 1] {TCP} 127.66.6.6:35615 -> 127.10.2.10:80
+11/26-17:41:51.460870 [**] [1:1000107:1] "[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003" [**] [Priority: 1] {TCP} 127.66.6.6:58247 -> 127.10.2.10:80
+11/26-17:41:55.785799 [**] [1:1000107:1] "[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003" [**] [Priority: 1] {TCP} 127.66.6.6:49327 -> 127.10.2.10:80
+11/26-17:41:58.121309 [**] [1:1000107:1] "[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003" [**] [Priority: 1] {TCP} 127.66.6.6:46965 -> 127.10.2.10:80
+11/26-17:42:02.237825 [**] [1:1000107:1] "[WEBSHELL] Request to PHP file under /uploads/ with command parameter - T1505.003" [**] [Priority: 1] {TCP} 127.66.6.6:38255 -> 127.10.2.10:80
+11/26-17:43:19.657632 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:47969 -> 127.66.6.6:8443
+11/26-17:43:59.052180 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:52415 -> 127.66.6.6:8443
+11/26-17:44:27.355977 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:38853 -> 127.66.6.6:8443
+11/26-17:44:58.357664 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:33797 -> 127.66.6.6:8443
+11/26-17:45:19.658271 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60695 -> 127.10.3.10:22
+11/26-17:45:21.597589 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:59467 -> 127.66.6.6:8443
+11/26-17:45:21.713334 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42685 -> 127.10.3.10:445
+11/26-17:45:23.661192 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38721 -> 127.10.3.10:3306
+11/26-17:45:24.633771 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58683 -> 127.10.3.10:5432
+11/26-17:45:25.643093 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51393 -> 127.10.3.10:6379
+11/26-17:45:27.408526 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:48857 -> 127.10.3.10:873
+11/26-17:45:30.549114 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42163 -> 127.10.4.10:22
+11/26-17:45:31.809294 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58065 -> 127.10.4.10:445
+11/26-17:45:33.863232 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:52283 -> 127.10.4.10:3306
+11/26-17:45:35.670892 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38383 -> 127.10.4.10:5432
+11/26-17:45:36.924624 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:44147 -> 127.10.4.10:6379
+11/26-17:45:38.087140 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50957 -> 127.10.4.10:873
+11/26-17:45:40.313683 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37531 -> 127.10.4.20:22
+11/26-17:45:42.200479 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:48045 -> 127.10.4.20:445
+11/26-17:45:44.135893 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40911 -> 127.10.4.20:3306
+11/26-17:45:45.521652 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37657 -> 127.10.4.20:5432
+11/26-17:45:47.218645 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35607 -> 127.10.4.20:6379
+11/26-17:45:48.644229 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57815 -> 127.10.4.20:873
+11/26-17:45:51.521432 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:59561 -> 127.10.3.10:22
+11/26-17:46:01.771390 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:53623 -> 127.66.6.6:8443
+11/26-17:46:12.469359 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:43735 -> 127.10.4.10:3306
+11/26-17:46:17.063434 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40939 -> 127.10.4.10:3306
+11/26-17:46:21.480123 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:55233 -> 127.10.4.10:3306
+11/26-17:46:25.579952 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38247 -> 127.10.4.10:3306
+11/26-17:46:27.420233 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:52097 -> 127.66.6.6:8443
+11/26-17:46:30.430896 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41757 -> 127.10.4.10:3306
+11/26-17:46:34.576302 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39149 -> 127.10.4.10:3306
+11/26-17:46:39.460167 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35823 -> 127.10.4.10:3306
+11/26-17:46:43.515884 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:33955 -> 127.10.4.10:3306
+11/26-17:46:51.238201 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:47893 -> 127.66.6.6:8443
+11/26-17:47:11.439710 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:39565 -> 127.66.6.6:8443
+11/26-17:47:19.661797 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56663 -> 127.10.9.53:53
+11/26-17:47:19.664692 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:41745 -> 127.66.6.6:8443
+11/26-17:47:21.133366 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36018 -> 127.10.9.53:53
+11/26-17:47:22.127494 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:57840 -> 127.10.9.53:53
+11/26-17:47:23.733664 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36582 -> 127.10.9.53:53
+11/26-17:47:25.338124 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36898 -> 127.10.9.53:53
+11/26-17:47:26.693244 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34584 -> 127.10.9.53:53
+11/26-17:47:28.427754 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:47361 -> 127.10.9.53:53
+11/26-17:47:29.872955 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56165 -> 127.10.9.53:53
+11/26-17:47:31.522120 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:33605 -> 127.10.9.53:53
+11/26-17:47:33.082758 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:59504 -> 127.10.9.53:53
+11/26-17:47:33.619254 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:45065 -> 127.66.6.6:8443
+11/26-17:47:35.168559 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:50863 -> 127.10.9.53:53
+11/26-17:47:36.653052 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40807 -> 127.10.9.53:53
+11/26-17:47:38.250443 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34601 -> 127.10.9.53:53
+11/26-17:47:40.286492 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:57975 -> 127.10.9.53:53
+11/26-17:47:41.094833 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:50453 -> 127.10.9.53:53
+11/26-17:47:42.143992 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:57979 -> 127.10.9.53:53
+11/26-17:47:43.315020 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:45464 -> 127.10.9.53:53
+11/26-17:47:44.483351 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:59799 -> 127.10.9.53:53
+11/26-17:47:45.533970 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:60332 -> 127.10.9.53:53
+11/26-17:47:46.405508 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58681 -> 127.10.9.53:53
+11/26-17:47:48.166090 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:50147 -> 127.10.9.53:53
+11/26-17:47:48.166090 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:50147 -> 127.10.9.53:53
+11/26-17:47:49.455228 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:55703 -> 127.10.9.53:53
+11/26-17:47:49.455228 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:55703 -> 127.10.9.53:53
+11/26-17:47:51.400305 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:42426 -> 127.10.9.53:53
+11/26-17:47:51.400305 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:42426 -> 127.10.9.53:53
+11/26-17:47:53.381371 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35051 -> 127.10.9.53:53
+11/26-17:47:53.381371 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35051 -> 127.10.9.53:53
+11/26-17:47:54.184867 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:32979 -> 127.10.9.53:53
+11/26-17:47:54.184867 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:32979 -> 127.10.9.53:53
+11/26-17:47:55.157592 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:43683 -> 127.66.6.6:8443
+11/26-17:47:56.157658 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:54530 -> 127.10.9.53:53
+11/26-17:47:56.157658 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:54530 -> 127.10.9.53:53
+11/26-17:47:58.365423 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46025 -> 127.10.9.53:53
+11/26-17:47:58.365423 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46025 -> 127.10.9.53:53
+11/26-17:47:59.466347 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:55777 -> 127.10.9.53:53
+11/26-17:47:59.466347 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:55777 -> 127.10.9.53:53
+11/26-17:48:00.666256 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34860 -> 127.10.9.53:53
+11/26-17:48:00.666256 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:34860 -> 127.10.9.53:53
+11/26-17:48:02.626098 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58995 -> 127.10.9.53:53
+11/26-17:48:02.626098 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:58995 -> 127.10.9.53:53
+11/26-17:48:03.568773 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58582 -> 127.10.9.53:53
+11/26-17:48:03.568773 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:58582 -> 127.10.9.53:53
+11/26-17:48:05.356069 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40947 -> 127.10.9.53:53
+11/26-17:48:05.356069 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:40947 -> 127.10.9.53:53
+11/26-17:48:06.365342 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:37577 -> 127.66.6.6:8443
+11/26-17:48:06.585634 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36039 -> 127.10.9.53:53
+11/26-17:48:06.585634 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:36039 -> 127.10.9.53:53
+11/26-17:48:08.532167 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:45787 -> 127.10.9.53:53
+11/26-17:48:08.532167 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:45787 -> 127.10.9.53:53
+11/26-17:48:09.900190 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58471 -> 127.10.9.53:53
+11/26-17:48:09.900190 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:58471 -> 127.10.9.53:53
+11/26-17:48:11.894041 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35256 -> 127.10.9.53:53
+11/26-17:48:11.894041 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35256 -> 127.10.9.53:53
+11/26-17:48:13.657869 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46123 -> 127.10.9.53:53
+11/26-17:48:13.657869 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46123 -> 127.10.9.53:53
+11/26-17:48:15.015734 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:33111 -> 127.10.9.53:53
+11/26-17:48:15.015734 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:33111 -> 127.10.9.53:53
+11/26-17:48:15.783446 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:41009 -> 127.10.9.53:53
+11/26-17:48:15.783446 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:41009 -> 127.10.9.53:53
+11/26-17:48:17.422067 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:51520 -> 127.10.9.53:53
+11/26-17:48:17.422067 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:51520 -> 127.10.9.53:53
+11/26-17:48:18.771026 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:34719 -> 127.66.6.6:8443
+11/26-17:48:18.912602 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36196 -> 127.10.9.53:53
+11/26-17:48:18.912602 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:36196 -> 127.10.9.53:53
+11/26-17:48:20.013255 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:39162 -> 127.10.9.53:53
+11/26-17:48:20.013255 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:39162 -> 127.10.9.53:53
+11/26-17:48:21.919099 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:59572 -> 127.10.9.53:53
+11/26-17:48:21.919099 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:59572 -> 127.10.9.53:53
+11/26-17:48:23.295254 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35020 -> 127.10.9.53:53
+11/26-17:48:23.295254 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35020 -> 127.10.9.53:53
+11/26-17:48:25.217885 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:60409 -> 127.10.9.53:53
+11/26-17:48:25.217885 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:60409 -> 127.10.9.53:53
+11/26-17:48:27.405106 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34307 -> 127.10.9.53:53
+11/26-17:48:27.405106 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:34307 -> 127.10.9.53:53
+11/26-17:48:29.350178 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:53500 -> 127.10.9.53:53
+11/26-17:48:29.350178 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:53500 -> 127.10.9.53:53
+11/26-17:48:30.779522 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:51752 -> 127.10.9.53:53
+11/26-17:48:30.779522 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:51752 -> 127.10.9.53:53
+11/26-17:48:32.889754 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56246 -> 127.10.9.53:53
+11/26-17:48:32.889754 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56246 -> 127.10.9.53:53
+11/26-17:48:33.761748 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35600 -> 127.10.9.53:53
+11/26-17:48:33.761748 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35600 -> 127.10.9.53:53
+11/26-17:48:34.723916 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:42366 -> 127.10.9.53:53
+11/26-17:48:34.723916 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:42366 -> 127.10.9.53:53
+11/26-17:48:35.592766 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:51468 -> 127.10.9.53:53
+11/26-17:48:35.592766 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:51468 -> 127.10.9.53:53
+11/26-17:48:36.542051 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56045 -> 127.10.9.53:53
+11/26-17:48:36.542051 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56045 -> 127.10.9.53:53
+11/26-17:48:38.207727 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:60236 -> 127.10.9.53:53
+11/26-17:48:38.207727 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:60236 -> 127.10.9.53:53
+11/26-17:48:39.551224 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:53708 -> 127.10.9.53:53
+11/26-17:48:39.551224 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:53708 -> 127.10.9.53:53
+11/26-17:48:41.176359 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:47177 -> 127.10.9.53:53
+11/26-17:48:41.176359 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:47177 -> 127.10.9.53:53
+11/26-17:48:43.393138 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:55136 -> 127.10.9.53:53
+11/26-17:48:43.393138 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:55136 -> 127.10.9.53:53
+11/26-17:48:43.415349 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:50185 -> 127.66.6.6:8443
+11/26-17:48:45.548665 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:53460 -> 127.10.9.53:53
+11/26-17:48:45.548665 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:53460 -> 127.10.9.53:53
+11/26-17:48:47.765308 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:37862 -> 127.10.9.53:53
+11/26-17:48:47.765308 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:37862 -> 127.10.9.53:53
+11/26-17:48:49.826840 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35488 -> 127.10.9.53:53
+11/26-17:48:49.826840 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35488 -> 127.10.9.53:53
+11/26-17:48:51.841602 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:52439 -> 127.10.9.53:53
+11/26-17:48:51.841602 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:52439 -> 127.10.9.53:53
+11/26-17:48:53.145190 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:49882 -> 127.10.9.53:53
+11/26-17:48:53.145190 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:49882 -> 127.10.9.53:53
+11/26-17:48:54.609654 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58335 -> 127.10.9.53:53
+11/26-17:48:54.609654 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:58335 -> 127.10.9.53:53
+11/26-17:48:55.275353 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:58441 -> 127.66.6.6:8443
+11/26-17:48:55.383248 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:38328 -> 127.10.9.53:53
+11/26-17:48:55.383248 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:38328 -> 127.10.9.53:53
+11/26-17:48:57.225773 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46458 -> 127.10.9.53:53
+11/26-17:48:57.225773 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46458 -> 127.10.9.53:53
+11/26-17:48:59.127249 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34400 -> 127.10.9.53:53
+11/26-17:48:59.127249 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:34400 -> 127.10.9.53:53
+11/26-17:49:00.335644 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:33674 -> 127.10.9.53:53
+11/26-17:49:00.335644 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:33674 -> 127.10.9.53:53
+11/26-17:49:01.578130 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56476 -> 127.10.9.53:53
+11/26-17:49:01.578130 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56476 -> 127.10.9.53:53
+11/26-17:49:03.403503 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43507 -> 127.10.9.53:53
+11/26-17:49:03.403503 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43507 -> 127.10.9.53:53
+11/26-17:49:04.956025 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40106 -> 127.10.9.53:53
+11/26-17:49:04.956025 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:40106 -> 127.10.9.53:53
+11/26-17:49:06.865986 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:44985 -> 127.10.9.53:53
+11/26-17:49:06.865986 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:44985 -> 127.10.9.53:53
+11/26-17:49:07.986259 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:47638 -> 127.10.9.53:53
+11/26-17:49:07.986259 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:47638 -> 127.10.9.53:53
+11/26-17:49:09.420608 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:37548 -> 127.10.9.53:53
+11/26-17:49:09.420608 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:37548 -> 127.10.9.53:53
+11/26-17:49:10.859793 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:41998 -> 127.10.9.53:53
+11/26-17:49:10.859793 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:41998 -> 127.10.9.53:53
+11/26-17:49:11.962328 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:50443 -> 127.10.9.53:53
+11/26-17:49:11.962328 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:50443 -> 127.10.9.53:53
+11/26-17:49:12.937282 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:37845 -> 127.10.9.53:53
+11/26-17:49:12.937282 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:37845 -> 127.10.9.53:53
+11/26-17:49:14.968437 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34697 -> 127.10.9.53:53
+11/26-17:49:14.968437 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:34697 -> 127.10.9.53:53
+11/26-17:49:16.884995 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:51630 -> 127.10.9.53:53
+11/26-17:49:16.884995 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:51630 -> 127.10.9.53:53
+11/26-17:49:18.382492 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56471 -> 127.10.9.53:53
+11/26-17:49:18.382492 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56471 -> 127.10.9.53:53
+11/26-17:49:19.551186 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:55667 -> 127.66.6.6:8443
+11/26-17:49:19.587963 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:35045 -> 127.66.6.6:8443
+11/26-17:49:19.914606 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:42908 -> 127.10.9.53:53
+11/26-17:49:19.914606 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:42908 -> 127.10.9.53:53
+11/26-17:49:22.104879 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34763 -> 127.10.9.53:53
+11/26-17:49:22.104879 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:34763 -> 127.10.9.53:53
+11/26-17:49:24.138907 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:53849 -> 127.10.9.53:53
+11/26-17:49:24.138907 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:53849 -> 127.10.9.53:53
+11/26-17:49:25.783813 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36031 -> 127.10.9.53:53
+11/26-17:49:25.783813 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:36031 -> 127.10.9.53:53
+11/26-17:49:28.007979 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:42612 -> 127.10.9.53:53
+11/26-17:49:28.007979 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:42612 -> 127.10.9.53:53
+11/26-17:49:29.067204 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:45269 -> 127.10.9.53:53
+11/26-17:49:29.067204 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:45269 -> 127.10.9.53:53
+11/26-17:49:30.772235 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:49683 -> 127.10.9.53:53
+11/26-17:49:30.772235 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:49683 -> 127.10.9.53:53
+11/26-17:49:32.126908 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43257 -> 127.10.9.53:53
+11/26-17:49:32.126908 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43257 -> 127.10.9.53:53
+11/26-17:49:32.941954 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:37568 -> 127.10.9.53:53
+11/26-17:49:32.941954 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:37568 -> 127.10.9.53:53
+11/26-17:49:34.894983 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46674 -> 127.10.9.53:53
+11/26-17:49:34.894983 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46674 -> 127.10.9.53:53
+11/26-17:49:36.678492 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36394 -> 127.10.9.53:53
+11/26-17:49:36.678492 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:36394 -> 127.10.9.53:53
+11/26-17:49:37.629823 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58414 -> 127.10.9.53:53
+11/26-17:49:37.629823 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:58414 -> 127.10.9.53:53
+11/26-17:49:39.433024 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:42214 -> 127.10.9.53:53
+11/26-17:49:39.433024 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:42214 -> 127.10.9.53:53
+11/26-17:49:41.214249 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43730 -> 127.10.9.53:53
+11/26-17:49:41.214249 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43730 -> 127.10.9.53:53
+11/26-17:49:42.401166 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:33775 -> 127.66.6.6:8443
+11/26-17:49:43.024658 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46282 -> 127.10.9.53:53
+11/26-17:49:43.024658 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46282 -> 127.10.9.53:53
+11/26-17:49:44.404318 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:54577 -> 127.10.9.53:53
+11/26-17:49:44.404318 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:54577 -> 127.10.9.53:53
+11/26-17:49:45.982875 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46092 -> 127.10.9.53:53
+11/26-17:49:45.982875 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46092 -> 127.10.9.53:53
+11/26-17:49:47.623176 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:54341 -> 127.10.9.53:53
+11/26-17:49:47.623176 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:54341 -> 127.10.9.53:53
+11/26-17:49:49.687504 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:38476 -> 127.10.9.53:53
+11/26-17:49:49.687504 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:38476 -> 127.10.9.53:53
+11/26-17:49:51.193623 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35043 -> 127.10.9.53:53
+11/26-17:49:51.193623 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35043 -> 127.10.9.53:53
+11/26-17:49:52.288916 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35780 -> 127.10.9.53:53
+11/26-17:49:52.288916 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35780 -> 127.10.9.53:53
+11/26-17:49:53.925198 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:55306 -> 127.10.9.53:53
+11/26-17:49:53.925198 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:55306 -> 127.10.9.53:53
+11/26-17:49:55.301936 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:38498 -> 127.10.9.53:53
+11/26-17:49:55.301936 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:38498 -> 127.10.9.53:53
+11/26-17:49:56.845021 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:54779 -> 127.10.9.53:53
+11/26-17:49:56.845021 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:54779 -> 127.10.9.53:53
+11/26-17:49:58.325696 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:52409 -> 127.10.9.53:53
+11/26-17:49:58.325696 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:52409 -> 127.10.9.53:53
+11/26-17:50:00.229180 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:47799 -> 127.10.9.53:53
+11/26-17:50:00.229180 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:47799 -> 127.10.9.53:53
+11/26-17:50:01.752357 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40188 -> 127.10.9.53:53
+11/26-17:50:01.752357 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:40188 -> 127.10.9.53:53
+11/26-17:50:03.006119 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:58709 -> 127.10.9.53:53
+11/26-17:50:03.006119 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:58709 -> 127.10.9.53:53
+11/26-17:50:03.779858 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:33758 -> 127.10.9.53:53
+11/26-17:50:03.779858 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:33758 -> 127.10.9.53:53
+11/26-17:50:05.536094 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:34878 -> 127.10.9.53:53
+11/26-17:50:05.536094 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:34878 -> 127.10.9.53:53
+11/26-17:50:06.452815 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56771 -> 127.10.9.53:53
+11/26-17:50:06.452815 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56771 -> 127.10.9.53:53
+11/26-17:50:07.107599 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:55361 -> 127.66.6.6:8443
+11/26-17:50:08.322561 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:37108 -> 127.10.9.53:53
+11/26-17:50:08.322561 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:37108 -> 127.10.9.53:53
+11/26-17:50:10.113047 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36545 -> 127.10.9.53:53
+11/26-17:50:10.113047 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:36545 -> 127.10.9.53:53
+11/26-17:50:11.769582 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56703 -> 127.10.9.53:53
+11/26-17:50:11.769582 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56703 -> 127.10.9.53:53
+11/26-17:50:13.958565 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:42821 -> 127.10.9.53:53
+11/26-17:50:13.958565 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:42821 -> 127.10.9.53:53
+11/26-17:50:14.039866 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:41843 -> 127.66.6.6:8443
+11/26-17:50:15.754877 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40639 -> 127.10.9.53:53
+11/26-17:50:15.754877 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:40639 -> 127.10.9.53:53
+11/26-17:50:17.197366 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43221 -> 127.10.9.53:53
+11/26-17:50:17.197366 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43221 -> 127.10.9.53:53
+11/26-17:50:18.993007 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:57696 -> 127.10.9.53:53
+11/26-17:50:18.993007 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:57696 -> 127.10.9.53:53
+11/26-17:50:21.193989 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:33082 -> 127.10.9.53:53
+11/26-17:50:21.193989 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:33082 -> 127.10.9.53:53
+11/26-17:50:22.418168 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43107 -> 127.10.9.53:53
+11/26-17:50:22.418168 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43107 -> 127.10.9.53:53
+11/26-17:50:24.322225 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:35719 -> 127.10.9.53:53
+11/26-17:50:24.322225 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:35719 -> 127.10.9.53:53
+11/26-17:50:25.714994 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43321 -> 127.10.9.53:53
+11/26-17:50:25.714994 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43321 -> 127.10.9.53:53
+11/26-17:50:26.736699 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:36663 -> 127.10.9.53:53
+11/26-17:50:26.736699 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:36663 -> 127.10.9.53:53
+11/26-17:50:28.184418 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:49877 -> 127.10.9.53:53
+11/26-17:50:28.184418 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:49877 -> 127.10.9.53:53
+11/26-17:50:29.159051 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:51328 -> 127.10.9.53:53
+11/26-17:50:29.159051 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:51328 -> 127.10.9.53:53
+11/26-17:50:31.086829 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40850 -> 127.10.9.53:53
+11/26-17:50:31.086829 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:40850 -> 127.10.9.53:53
+11/26-17:50:32.525392 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:46112 -> 127.10.9.53:53
+11/26-17:50:32.525392 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:46112 -> 127.10.9.53:53
+11/26-17:50:34.681617 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:44163 -> 127.10.9.53:53
+11/26-17:50:34.681617 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:44163 -> 127.10.9.53:53
+11/26-17:50:36.906541 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:50877 -> 127.10.9.53:53
+11/26-17:50:36.906541 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:50877 -> 127.10.9.53:53
+11/26-17:50:38.135539 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:39238 -> 127.10.9.53:53
+11/26-17:50:38.135539 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:39238 -> 127.10.9.53:53
+11/26-17:50:40.127991 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:50817 -> 127.10.9.53:53
+11/26-17:50:40.127991 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:50817 -> 127.10.9.53:53
+11/26-17:50:41.261019 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:54631 -> 127.10.9.53:53
+11/26-17:50:41.261019 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:54631 -> 127.10.9.53:53
+11/26-17:50:43.078278 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:56485 -> 127.10.9.53:53
+11/26-17:50:43.078278 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:56485 -> 127.10.9.53:53
+11/26-17:50:44.786364 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:51525 -> 127.10.9.53:53
+11/26-17:50:44.786364 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:51525 -> 127.10.9.53:53
+11/26-17:50:46.427310 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:59231 -> 127.10.9.53:53
+11/26-17:50:46.427310 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:59231 -> 127.10.9.53:53
+11/26-17:50:48.092832 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:37485 -> 127.10.9.53:53
+11/26-17:50:48.092832 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:37485 -> 127.10.9.53:53
+11/26-17:50:48.313186 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:54135 -> 127.66.6.6:8443
+11/26-17:50:49.157544 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:40285 -> 127.10.9.53:53
+11/26-17:50:49.157544 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:40285 -> 127.10.9.53:53
+11/26-17:50:51.075201 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:52587 -> 127.10.9.53:53
+11/26-17:50:51.075201 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:52587 -> 127.10.9.53:53
+11/26-17:50:52.977865 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:60409 -> 127.10.9.53:53
+11/26-17:50:52.977865 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:60409 -> 127.10.9.53:53
+11/26-17:50:54.186744 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:54734 -> 127.10.9.53:53
+11/26-17:50:54.186744 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:54734 -> 127.10.9.53:53
+11/26-17:50:55.539497 [**] [1:1000104:1] "[C2-IOC] DNS query for telemetry-cdn.example (DNS tunnelling) - T1071.004/T1048.003" [**] [Priority: 1] {UDP} 127.10.3.10:43889 -> 127.10.9.53:53
+11/26-17:50:55.539497 [**] [1:1000105:1] "[HEUR] Burst of oversized DNS queries from single host - possible DNS tunnelling - T1048.003" [**] [Priority: 2] {UDP} 127.10.3.10:43889 -> 127.10.9.53:53
+11/26-17:50:55.856233 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:59847 -> 127.66.6.6:8443
+11/26-17:51:19.658138 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58699 -> 127.10.4.20:873
+11/26-17:51:19.842275 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60005 -> 127.10.4.20:873
+11/26-17:51:20.056214 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:49535 -> 127.10.4.20:873
+11/26-17:51:20.256551 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58915 -> 127.10.4.20:873
+11/26-17:51:20.373974 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:50441 -> 127.66.6.6:8443
+11/26-17:51:20.493882 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:46143 -> 127.10.4.20:873
+11/26-17:51:20.599630 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36359 -> 127.10.4.20:873
+11/26-17:51:20.756861 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54813 -> 127.10.4.20:873
+11/26-17:51:20.851488 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37691 -> 127.10.4.20:873
+11/26-17:51:21.088081 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51141 -> 127.10.4.20:873
+11/26-17:51:21.295428 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35919 -> 127.10.4.20:873
+11/26-17:51:21.372353 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:59353 -> 127.10.4.20:873
+11/26-17:51:21.460582 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40883 -> 127.10.4.20:873
+11/26-17:51:21.709102 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:44825 -> 127.10.4.20:873
+11/26-17:51:21.932646 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50925 -> 127.10.4.20:873
+11/26-17:51:22.183602 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:59549 -> 127.10.4.20:873
+11/26-17:51:22.338060 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51963 -> 127.10.4.20:873
+11/26-17:51:22.338060 [**] [1:1000001:2] "[RECON] TCP SYN scan - high-rate SYNs across service ports - MITRE T1046/T1595.001" [**] [Priority: 2] {TCP} 127.10.2.10:51963 -> 127.10.4.20:873
+11/26-17:51:22.422265 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36889 -> 127.10.4.20:873
+11/26-17:51:22.493246 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57647 -> 127.10.4.20:873
+11/26-17:51:22.743095 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:33383 -> 127.10.4.20:873
+11/26-17:51:22.825194 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37185 -> 127.10.4.20:873
+11/26-17:51:23.016286 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:56055 -> 127.10.4.20:873
+11/26-17:51:23.262428 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42571 -> 127.10.4.20:873
+11/26-17:51:23.373081 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38973 -> 127.10.4.20:873
+11/26-17:51:23.522346 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60893 -> 127.10.4.20:873
+11/26-17:51:23.641314 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:56389 -> 127.10.4.20:873
+11/26-17:51:23.881646 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57351 -> 127.10.4.20:873
+11/26-17:51:24.083755 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:47719 -> 127.10.4.20:873
+11/26-17:51:24.157021 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60799 -> 127.10.4.20:873
+11/26-17:51:24.402826 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41883 -> 127.10.4.20:873
+11/26-17:51:24.563164 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:47955 -> 127.10.4.20:873
+11/26-17:51:24.794899 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:56431 -> 127.10.4.20:873
+11/26-17:51:24.944861 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:34009 -> 127.10.4.20:873
+11/26-17:51:25.098485 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:43039 -> 127.10.4.20:873
+11/26-17:51:25.194066 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38625 -> 127.10.4.20:873
+11/26-17:51:25.297850 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42107 -> 127.10.4.20:873
+11/26-17:51:25.422401 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38085 -> 127.10.4.20:873
+11/26-17:51:25.516715 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:34785 -> 127.10.4.20:873
+11/26-17:51:25.611407 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36209 -> 127.10.4.20:873
+11/26-17:51:25.721558 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54755 -> 127.10.4.20:873
+11/26-17:51:25.902955 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51883 -> 127.10.4.20:873
+11/26-17:51:25.987057 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:59805 -> 127.10.4.20:873
+11/26-17:51:25.987057 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:59805 -> 127.10.4.20:873
+11/26-17:51:26.190849 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:52573 -> 127.10.4.20:873
+11/26-17:51:26.190849 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:52573 -> 127.10.4.20:873
+11/26-17:51:26.277215 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:42165 -> 127.10.4.20:873
+11/26-17:51:26.277215 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42165 -> 127.10.4.20:873
+11/26-17:51:26.426580 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:36375 -> 127.10.4.20:873
+11/26-17:51:26.426580 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36375 -> 127.10.4.20:873
+11/26-17:51:26.577088 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:54137 -> 127.10.4.20:873
+11/26-17:51:26.577088 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54137 -> 127.10.4.20:873
+11/26-17:51:26.685477 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60497 -> 127.10.4.20:873
+11/26-17:51:26.685477 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60497 -> 127.10.4.20:873
+11/26-17:51:26.777784 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:39211 -> 127.10.4.20:873
+11/26-17:51:26.777784 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39211 -> 127.10.4.20:873
+11/26-17:51:26.947234 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60939 -> 127.10.4.20:873
+11/26-17:51:26.947234 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60939 -> 127.10.4.20:873
+11/26-17:51:27.041028 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:55571 -> 127.10.4.20:873
+11/26-17:51:27.041028 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:55571 -> 127.10.4.20:873
+11/26-17:51:27.135021 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41253 -> 127.10.4.20:873
+11/26-17:51:27.135021 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41253 -> 127.10.4.20:873
+11/26-17:51:27.235813 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:57413 -> 127.10.4.20:873
+11/26-17:51:27.235813 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57413 -> 127.10.4.20:873
+11/26-17:51:27.365077 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:51009 -> 127.10.4.20:873
+11/26-17:51:27.365077 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51009 -> 127.10.4.20:873
+11/26-17:51:27.516979 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:53011 -> 127.10.4.20:873
+11/26-17:51:27.516979 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:53011 -> 127.10.4.20:873
+11/26-17:51:27.608290 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:48853 -> 127.10.4.20:873
+11/26-17:51:27.608290 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:48853 -> 127.10.4.20:873
+11/26-17:51:27.701260 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:36953 -> 127.10.4.20:873
+11/26-17:51:27.701260 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36953 -> 127.10.4.20:873
+11/26-17:51:27.838371 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:38403 -> 127.10.4.20:873
+11/26-17:51:27.838371 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38403 -> 127.10.4.20:873
+11/26-17:51:28.076340 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:39053 -> 127.10.4.20:873
+11/26-17:51:28.076340 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39053 -> 127.10.4.20:873
+11/26-17:51:28.220783 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60393 -> 127.10.4.20:873
+11/26-17:51:28.220783 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60393 -> 127.10.4.20:873
+11/26-17:51:28.467667 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:39037 -> 127.10.4.20:873
+11/26-17:51:28.467667 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39037 -> 127.10.4.20:873
+11/26-17:51:28.644216 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:33303 -> 127.10.4.20:873
+11/26-17:51:28.644216 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:33303 -> 127.10.4.20:873
+11/26-17:51:28.730642 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:40929 -> 127.10.4.20:873
+11/26-17:51:28.730642 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40929 -> 127.10.4.20:873
+11/26-17:51:28.898539 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41167 -> 127.10.4.20:873
+11/26-17:51:28.898539 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41167 -> 127.10.4.20:873
+11/26-17:51:28.989324 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:33751 -> 127.10.4.20:873
+11/26-17:51:28.989324 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:33751 -> 127.10.4.20:873
+11/26-17:51:29.133435 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45445 -> 127.10.4.20:873
+11/26-17:51:29.133435 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45445 -> 127.10.4.20:873
+11/26-17:51:29.221360 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:50985 -> 127.10.4.20:873
+11/26-17:51:29.221360 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50985 -> 127.10.4.20:873
+11/26-17:51:29.367815 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:37445 -> 127.10.4.20:873
+11/26-17:51:29.367815 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37445 -> 127.10.4.20:873
+11/26-17:51:29.464929 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:42879 -> 127.10.4.20:873
+11/26-17:51:29.464929 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42879 -> 127.10.4.20:873
+11/26-17:51:29.673516 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45617 -> 127.10.4.20:873
+11/26-17:51:29.673516 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45617 -> 127.10.4.20:873
+11/26-17:51:29.864392 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:53867 -> 127.10.4.20:873
+11/26-17:51:29.864392 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:53867 -> 127.10.4.20:873
+11/26-17:51:30.073631 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45439 -> 127.10.4.20:873
+11/26-17:51:30.073631 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45439 -> 127.10.4.20:873
+11/26-17:51:30.254816 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:46365 -> 127.10.4.20:873
+11/26-17:51:30.254816 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:46365 -> 127.10.4.20:873
+11/26-17:51:30.366921 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41817 -> 127.10.4.20:873
+11/26-17:51:30.366921 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41817 -> 127.10.4.20:873
+11/26-17:51:30.580123 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60487 -> 127.10.4.20:873
+11/26-17:51:30.580123 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60487 -> 127.10.4.20:873
+11/26-17:51:30.744198 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45613 -> 127.10.4.20:873
+11/26-17:51:30.744198 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45613 -> 127.10.4.20:873
+11/26-17:51:30.987335 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:35875 -> 127.10.4.20:873
+11/26-17:51:30.987335 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35875 -> 127.10.4.20:873
+11/26-17:51:31.180479 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45283 -> 127.10.4.20:873
+11/26-17:51:31.180479 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45283 -> 127.10.4.20:873
+11/26-17:51:31.280546 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:50135 -> 127.10.4.20:873
+11/26-17:51:31.280546 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50135 -> 127.10.4.20:873
+11/26-17:51:31.520649 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:56099 -> 127.10.4.20:873
+11/26-17:51:31.520649 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:56099 -> 127.10.4.20:873
+11/26-17:51:31.649730 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:57543 -> 127.10.4.20:873
+11/26-17:51:31.649730 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57543 -> 127.10.4.20:873
+11/26-17:51:31.727831 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:53965 -> 127.10.4.20:873
+11/26-17:51:31.727831 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:53965 -> 127.10.4.20:873
+11/26-17:51:31.836747 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41851 -> 127.10.4.20:873
+11/26-17:51:31.836747 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41851 -> 127.10.4.20:873
+11/26-17:51:32.051213 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:35523 -> 127.10.4.20:873
+11/26-17:51:32.051213 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35523 -> 127.10.4.20:873
+11/26-17:51:32.224341 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:47547 -> 127.10.4.20:873
+11/26-17:51:32.224341 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:47547 -> 127.10.4.20:873
+11/26-17:51:32.421714 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45567 -> 127.10.4.20:873
+11/26-17:51:32.421714 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45567 -> 127.10.4.20:873
+11/26-17:51:32.673394 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:50221 -> 127.10.4.20:873
+11/26-17:51:32.673394 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50221 -> 127.10.4.20:873
+11/26-17:51:32.780898 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:43529 -> 127.10.4.20:873
+11/26-17:51:32.780898 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:43529 -> 127.10.4.20:873
+11/26-17:51:32.836125 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:51013 -> 127.10.4.20:873
+11/26-17:51:32.836125 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51013 -> 127.10.4.20:873
+11/26-17:51:32.974417 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41677 -> 127.10.4.20:873
+11/26-17:51:32.974417 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41677 -> 127.10.4.20:873
+11/26-17:51:33.130740 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:36273 -> 127.10.4.20:873
+11/26-17:51:33.130740 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36273 -> 127.10.4.20:873
+11/26-17:51:33.297959 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41539 -> 127.10.4.20:873
+11/26-17:51:33.297959 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41539 -> 127.10.4.20:873
+11/26-17:51:33.524416 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:55673 -> 127.10.4.20:873
+11/26-17:51:33.524416 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:55673 -> 127.10.4.20:873
+11/26-17:51:33.742507 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:54901 -> 127.10.4.20:873
+11/26-17:51:33.742507 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54901 -> 127.10.4.20:873
+11/26-17:51:33.987100 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:37639 -> 127.10.4.20:873
+11/26-17:51:33.987100 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37639 -> 127.10.4.20:873
+11/26-17:51:34.068495 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:58227 -> 127.10.4.20:873
+11/26-17:51:34.068495 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58227 -> 127.10.4.20:873
+11/26-17:51:34.291393 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:50549 -> 127.10.4.20:873
+11/26-17:51:34.291393 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50549 -> 127.10.4.20:873
+11/26-17:51:34.441349 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:54817 -> 127.10.4.20:873
+11/26-17:51:34.441349 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54817 -> 127.10.4.20:873
+11/26-17:51:34.499276 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:52969 -> 127.10.4.20:873
+11/26-17:51:34.499276 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:52969 -> 127.10.4.20:873
+11/26-17:51:34.703175 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60567 -> 127.10.4.20:873
+11/26-17:51:34.703175 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60567 -> 127.10.4.20:873
+11/26-17:51:34.866134 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:53289 -> 127.10.4.20:873
+11/26-17:51:34.866134 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:53289 -> 127.10.4.20:873
+11/26-17:51:34.922730 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:37853 -> 127.10.4.20:873
+11/26-17:51:34.922730 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37853 -> 127.10.4.20:873
+11/26-17:51:34.975012 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:47923 -> 127.10.4.20:873
+11/26-17:51:34.975012 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:47923 -> 127.10.4.20:873
+11/26-17:51:35.062460 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45719 -> 127.10.4.20:873
+11/26-17:51:35.062460 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45719 -> 127.10.4.20:873
+11/26-17:51:35.231797 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:59073 -> 127.10.4.20:873
+11/26-17:51:35.231797 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:59073 -> 127.10.4.20:873
+11/26-17:51:35.440472 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:40163 -> 127.10.4.20:873
+11/26-17:51:35.440472 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40163 -> 127.10.4.20:873
+11/26-17:51:35.494505 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60507 -> 127.10.4.20:873
+11/26-17:51:35.494505 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60507 -> 127.10.4.20:873
+11/26-17:51:35.684473 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60161 -> 127.10.4.20:873
+11/26-17:51:35.684473 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60161 -> 127.10.4.20:873
+11/26-17:51:35.871437 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:49143 -> 127.10.4.20:873
+11/26-17:51:35.871437 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:49143 -> 127.10.4.20:873
+11/26-17:51:35.927583 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:57915 -> 127.10.4.20:873
+11/26-17:51:35.927583 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57915 -> 127.10.4.20:873
+11/26-17:51:36.007274 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:50307 -> 127.10.4.20:873
+11/26-17:51:36.007274 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50307 -> 127.10.4.20:873
+11/26-17:51:36.205060 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:39421 -> 127.10.4.20:873
+11/26-17:51:36.205060 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39421 -> 127.10.4.20:873
+11/26-17:51:36.425240 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:57899 -> 127.10.4.20:873
+11/26-17:51:36.425240 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57899 -> 127.10.4.20:873
+11/26-17:51:36.653025 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:52175 -> 127.10.4.20:873
+11/26-17:51:36.653025 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:52175 -> 127.10.4.20:873
+11/26-17:51:36.746322 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:60837 -> 127.10.4.20:873
+11/26-17:51:36.746322 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:60837 -> 127.10.4.20:873
+11/26-17:51:36.829045 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:42651 -> 127.10.4.20:873
+11/26-17:51:36.829045 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42651 -> 127.10.4.20:873
+11/26-17:51:36.913046 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:40721 -> 127.10.4.20:873
+11/26-17:51:36.913046 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40721 -> 127.10.4.20:873
+11/26-17:51:37.150708 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:46699 -> 127.10.4.20:873
+11/26-17:51:37.150708 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:46699 -> 127.10.4.20:873
+11/26-17:51:37.329428 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:33607 -> 127.10.4.20:873
+11/26-17:51:37.329428 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:33607 -> 127.10.4.20:873
+11/26-17:51:37.427194 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41935 -> 127.10.4.20:873
+11/26-17:51:37.427194 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41935 -> 127.10.4.20:873
+11/26-17:51:37.605090 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:43661 -> 127.10.4.20:873
+11/26-17:51:37.605090 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:43661 -> 127.10.4.20:873
+11/26-17:51:37.680672 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:56779 -> 127.10.4.20:873
+11/26-17:51:37.680672 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:56779 -> 127.10.4.20:873
+11/26-17:51:37.742575 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:40447 -> 127.10.4.20:873
+11/26-17:51:37.742575 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40447 -> 127.10.4.20:873
+11/26-17:51:37.861686 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:34923 -> 127.10.4.20:873
+11/26-17:51:37.861686 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:34923 -> 127.10.4.20:873
+11/26-17:51:38.051992 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:51387 -> 127.10.4.20:873
+11/26-17:51:38.051992 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:51387 -> 127.10.4.20:873
+11/26-17:51:38.168345 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:38827 -> 127.10.4.20:873
+11/26-17:51:38.168345 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:38827 -> 127.10.4.20:873
+11/26-17:51:38.238768 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:46057 -> 127.10.4.20:873
+11/26-17:51:38.238768 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:46057 -> 127.10.4.20:873
+11/26-17:51:38.374595 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:39041 -> 127.10.4.20:873
+11/26-17:51:38.374595 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39041 -> 127.10.4.20:873
+11/26-17:51:38.503736 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:42943 -> 127.10.4.20:873
+11/26-17:51:38.503736 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:42943 -> 127.10.4.20:873
+11/26-17:51:38.580038 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:45007 -> 127.10.4.20:873
+11/26-17:51:38.580038 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:45007 -> 127.10.4.20:873
+11/26-17:51:38.832236 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:37203 -> 127.10.4.20:873
+11/26-17:51:38.832236 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:37203 -> 127.10.4.20:873
+11/26-17:51:39.014369 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:50073 -> 127.10.4.20:873
+11/26-17:51:39.014369 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:50073 -> 127.10.4.20:873
+11/26-17:51:39.176437 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:39559 -> 127.10.4.20:873
+11/26-17:51:39.176437 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:39559 -> 127.10.4.20:873
+11/26-17:51:39.370965 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:48767 -> 127.10.4.20:873
+11/26-17:51:39.370965 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:48767 -> 127.10.4.20:873
+11/26-17:51:39.506555 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41299 -> 127.10.4.20:873
+11/26-17:51:39.506555 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41299 -> 127.10.4.20:873
+11/26-17:51:39.594007 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:49183 -> 127.10.4.20:873
+11/26-17:51:39.594007 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:49183 -> 127.10.4.20:873
+11/26-17:51:39.779146 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:58691 -> 127.10.4.20:873
+11/26-17:51:39.779146 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58691 -> 127.10.4.20:873
+11/26-17:51:39.960635 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:48093 -> 127.10.4.20:873
+11/26-17:51:39.960635 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:48093 -> 127.10.4.20:873
+11/26-17:51:40.190600 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:54667 -> 127.10.4.20:873
+11/26-17:51:40.190600 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54667 -> 127.10.4.20:873
+11/26-17:51:40.422040 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:57377 -> 127.10.4.20:873
+11/26-17:51:40.422040 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:57377 -> 127.10.4.20:873
+11/26-17:51:40.521383 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:34903 -> 127.10.4.20:873
+11/26-17:51:40.521383 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:34903 -> 127.10.4.20:873
+11/26-17:51:40.749858 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:36793 -> 127.10.4.20:873
+11/26-17:51:40.749858 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36793 -> 127.10.4.20:873
+11/26-17:51:40.974018 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:56515 -> 127.10.4.20:873
+11/26-17:51:40.974018 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:56515 -> 127.10.4.20:873
+11/26-17:51:41.166525 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41303 -> 127.10.4.20:873
+11/26-17:51:41.166525 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41303 -> 127.10.4.20:873
+11/26-17:51:41.404932 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:58681 -> 127.10.4.20:873
+11/26-17:51:41.404932 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58681 -> 127.10.4.20:873
+11/26-17:51:41.623467 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:40247 -> 127.10.4.20:873
+11/26-17:51:41.623467 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40247 -> 127.10.4.20:873
+11/26-17:51:41.854873 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:43895 -> 127.10.4.20:873
+11/26-17:51:41.854873 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:43895 -> 127.10.4.20:873
+11/26-17:51:41.961338 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41355 -> 127.10.4.20:873
+11/26-17:51:41.961338 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41355 -> 127.10.4.20:873
+11/26-17:51:42.091748 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:41053 -> 127.10.4.20:873
+11/26-17:51:42.091748 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:41053 -> 127.10.4.20:873
+11/26-17:51:42.293017 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:44537 -> 127.10.4.20:873
+11/26-17:51:42.293017 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:44537 -> 127.10.4.20:873
+11/26-17:51:42.495633 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:47307 -> 127.10.4.20:873
+11/26-17:51:42.495633 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:47307 -> 127.10.4.20:873
+11/26-17:51:42.597463 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:54255 -> 127.10.4.20:873
+11/26-17:51:42.597463 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:54255 -> 127.10.4.20:873
+11/26-17:51:42.660820 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:48073 -> 127.10.4.20:873
+11/26-17:51:42.660820 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:48073 -> 127.10.4.20:873
+11/26-17:51:42.842621 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:52753 -> 127.10.4.20:873
+11/26-17:51:42.842621 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:52753 -> 127.10.4.20:873
+11/26-17:51:42.921650 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:58689 -> 127.10.4.20:873
+11/26-17:51:42.921650 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:58689 -> 127.10.4.20:873
+11/26-17:51:43.100276 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:44765 -> 127.10.4.20:873
+11/26-17:51:43.100276 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:44765 -> 127.10.4.20:873
+11/26-17:51:43.248681 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:35781 -> 127.66.6.6:8443
+11/26-17:51:43.345262 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:34559 -> 127.10.4.20:873
+11/26-17:51:43.345262 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:34559 -> 127.10.4.20:873
+11/26-17:51:43.437468 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:43619 -> 127.10.4.20:873
+11/26-17:51:43.437468 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:43619 -> 127.10.4.20:873
+11/26-17:51:43.549459 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:35641 -> 127.10.4.20:873
+11/26-17:51:43.549459 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35641 -> 127.10.4.20:873
+11/26-17:51:43.746526 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:35935 -> 127.10.4.20:873
+11/26-17:51:43.746526 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:35935 -> 127.10.4.20:873
+11/26-17:51:43.836515 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:38303 -> 127.66.6.6:8443
+11/26-17:51:43.978591 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:46381 -> 127.10.4.20:873
+11/26-17:51:43.978591 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:46381 -> 127.10.4.20:873
+11/26-17:51:44.050130 [**] [1:1000106:1] "[IMPACT-PRECURSOR] Mass short sessions to backup rsync port - T1486/T1490" [**] [Priority: 1] {TCP} 127.10.2.10:40941 -> 127.10.4.20:873
+11/26-17:51:44.050130 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:40941 -> 127.10.4.20:873
+11/26-17:51:44.286619 [**] [1:1000101:1] "[POLICY] DMZ web server initiated connection to app/db/backup service port - T1021/T1046" [**] [Priority: 1] {TCP} 127.10.2.10:36127 -> 127.10.4.20:22
+11/26-17:52:17.948268 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:37357 -> 127.66.6.6:8443
+11/26-17:52:29.276903 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:43297 -> 127.66.6.6:8443
+11/26-17:52:52.279262 [**] [1:1000102:1] "[POLICY] DMZ web server initiated outbound connection to external host - T1071/T1041" [**] [Priority: 1] {TCP} 127.10.2.10:36817 -> 127.66.6.6:8443

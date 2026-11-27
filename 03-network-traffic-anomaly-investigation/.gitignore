@@ -7,3 +7,4 @@ lab/
 *.log
 __pycache__/
 .DS_Store
+analysis/14-snort-replay/combined.rules

@@ -1,0 +1,18 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+frame                                    frames:41642 bytes:36164533
+  eth                                    frames:41642 bytes:36164533
+    ip                                   frames:41642 bytes:36164533
+      udp                                frames:3908 bytes:343976
+        dns                              frames:3908 bytes:343976
+      tcp                                frames:37734 bytes:35820557
+        tls                              frames:9592 bytes:9262874
+        http                             frames:2186 bytes:2144288
+          data-text-lines                frames:1093 bytes:1837581
+          mime_multipart                 frames:1 bytes:484
+        rsync                            frames:1347 bytes:22370537
+        ssh                              frames:78 bytes:18913
+===================================================================

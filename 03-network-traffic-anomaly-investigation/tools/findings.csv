@@ -1,0 +1,13 @@
+id,verdict,start_s,end_s,src,dst,port,technique,summary
+F1,malicious,120.0,160.2,127.66.6.6,127.10.2.10,multi,T1595/T1046,18 single-SYN probes on 18 ports about 2.4 s apart (slow scan)
+F2,malicious,163.6,188.4,127.66.6.6,127.10.2.10,80,T1595.003,30 GET requests for common admin/config paths (wordlist)
+F3,malicious,189.5,202.1,127.66.6.6,127.10.2.10,80,T1190,8 SQLi requests: error/boolean/ORDER BY/UNION/time-based plus obfuscated variants
+F4,malicious,203.8,222.6,127.66.6.6,127.10.2.10,80,T1505.003,POST /upload.php then 6 GETs to /uploads/img.php?c=<command>
+F5,malicious,300.0,872.6,127.10.2.10,127.66.6.6,8443,T1071.001/T1573,21 short TLS sessions; interval mean 28.6 s (20.2-40.2 s); constant ~2.7 kB upstream
+F6,malicious,420.0,450.6,127.10.2.10,"127.10.3.10,127.10.4.10,127.10.4.20",multi,T1046,20 visible first-seen SYN probes on the three internal hosts (app:8080 probe hidden in baseline)
+F7,malicious,451.9,451.9,127.10.2.10,127.10.3.10,22,T1021.004/T1078,SSH session web -> app (first ever)
+F8,malicious,434.2,503.9,127.10.2.10,127.10.4.10,3306,T1110/T1078,9 TCP sessions to the database in 70 s from a host that never contacted it before
+F9a,malicious,540.0,755.9,127.10.3.10,127.10.9.53,53,T1048.003/T1071.004,140 unique 79-char names under telemetry-cdn.example
+F9b,malicious,540.0,849.6,127.10.2.10,127.66.6.6,8443,T1041/T1030,8 uploads of 62-71 kB every 36-49 s over TLS
+F10,malicious,780.0,804.6,127.10.2.10,127.10.4.20,"873,22",T1486/T1490,160 rsync sessions in 24 s then an SSH session to the backup server
+B1,benign,200.0,626.0,127.10.4.10,127.10.4.20,873,none,Two ~8 MB DB-to-backup transfers (200 s and 600-660 s buckets)
